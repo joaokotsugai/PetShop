@@ -1,0 +1,21 @@
+{
+  "name": "petshop",
+  "version": "1.0.0",
+  "description": "Projeto utilizando como base de ensino e treinamento do cursos de     **Informática**,  \r Principamente de nível técnico - **IFSP**",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaokotsugai/PetShop.git"
+  },
+  "keywords": [],
+  "author": "João Pedro Kotsugai Gianini",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joaokotsugai/PetShop/issues"
+  },
+  "homepage": "https://github.com/joaokotsugai/PetShop#readme"
+}
