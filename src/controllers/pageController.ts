@@ -1,18 +1,23 @@
 import { Request, Response } from "express";
+import { title } from "process";
 
 export const home = (req: Request, res: Response) => {
-    res.send('pages/home');
-    // res.render('pages/page');
+    res.render('pages/page', {
+    banner: {
+        title: 'Todos os animais',
+        background: 'allanimals.jpg'
+        }
+    });
 }
 
 export const dogs = (req: Request, res: Response) => {
-    res.send('pages/dogs');
+    res.render('pages/page');
 }
 
 export const cats = (req: Request, res: Response) => {
-    res.send('pages/cats');
+    res.render('pages/page');
 }
 
 export const fishes = (req: Request, res: Response) => {
-    res.send('pages/fishes');
+    res.render('pages/page');
 }
